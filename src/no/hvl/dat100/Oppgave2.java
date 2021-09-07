@@ -1,11 +1,10 @@
-
 package no.hvl.dat100;
 
 public class Oppgave2 {
 	public static void main(String[] args) {
 		String karakter;
 		
-		for (int i=0; i<10;i++) {
+		for (int i=0; i<10; i++) {
 			
 			String tallStr = javax.swing.JOptionPane.showInputDialog("Skriv inn et tall: ");
 			int  tall = Integer.parseInt(tallStr);
